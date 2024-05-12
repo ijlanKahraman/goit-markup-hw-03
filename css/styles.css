@@ -1,0 +1,224 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.navbar {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.navlist {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navlist:hover {
+  color: #404bbf;
+}
+.navlist:focus {
+  color: #404bbf;
+}
+.navlist:visited {
+  color: #404bbf;
+}
+.navbaglanti {
+  color: #2e2f42;
+}
+.navbaglanti:hover {
+  color: #404bbf;
+}
+.navbaglanti:focus {
+  color: #404bbf;
+}
+.iletisim {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+.iletisim:hover {
+  color: #404bbf;
+}
+.iletisim:focus {
+  color: #404bbf;
+}
+.adreslisteelemani {
+  color: #434455;
+}
+.adreslisteelemani:hover {
+  color: #404bbf;
+}
+.adreslisteelemani:focus {
+  color: #404bbf;
+}
+.adresbaglanti {
+  color: #434455;
+}
+.adresbaglanti:hover {
+  color: #404bbf;
+}
+.adresbaglanti:focus {
+  color: #404bbf;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.log-span {
+  color: #2e2f42;
+}
+
+.sector-bir {
+  background-color: #2e2f42;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.sector-birbaslik {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.sector-bir:button {
+  color: #4d5ae5;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.sector-birbutton {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.sector-birbutton:hover {
+  background-color: #404bbf;
+}
+.sector-birbutton:focus {
+  background-color: #404bbf;
+}
+
+.sector-iki {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sektor-ikiparagraf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+}
+.sector-uc {
+  background-color: #f4f4fd;
+}
+.sector-ucbaslik {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.sector-uc:h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.sector-ikihuc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.sector-ucliste {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.sector-ucparagraf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+}
+.sector-dort:h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.sector-dort:h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.sector-dort:p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.alt-bilgi {
+  background-color: #2e2f42;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  padding-top: 100px;
+}
+.alt-paragraf {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.alt-span {
+  color: #f4f4fd;
+}
