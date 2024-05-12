@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -103,6 +110,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding: 188px 0;
 }
 .sector-birbaslik {
   font-size: 56px;
@@ -150,6 +158,11 @@ body {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
+.sector-ikilist-eleman {
+  gap: 24px;
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+}
 .sector-ikilist-son {
   margin-right: 0;
 }
@@ -161,6 +174,7 @@ body {
 }
 .sector-uc {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .sector-ucbaslik {
   font-size: 36px;
@@ -214,6 +228,9 @@ body {
   font-size: 16px;
   text-align: center;
 }
+.sector-dort {
+  padding: 120px 0 120px 0;
+}
 .sector-dort:h2 {
   font-size: 36px;
   line-height: 1.11;
@@ -234,6 +251,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.sector-dort-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.sector-dortliste {
+  width: calc((100% - 48px) / 3);
+}
+.sector-dort-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .alt-bilgi {
   background-color: #2e2f42;
@@ -257,6 +288,7 @@ body {
 }
 .container {
   padding: 188px 0;
+  flex-direction: row;
 }
 .container-sector-iki {
   padding: 120px 0;
