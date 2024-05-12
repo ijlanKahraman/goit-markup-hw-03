@@ -99,17 +99,9 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  max-width: 496px;
 }
-.sector-bir:button {
-  color: #4d5ae5;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #404bbf;
-}
+
 .sector-birbutton {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -119,6 +111,12 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 .sector-birbutton:hover {
   background-color: #404bbf;
@@ -211,7 +209,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 100px;
+  padding: 100px 0 100px;
 }
 .alt-paragraf {
   line-height: 1.5;
@@ -221,4 +219,7 @@ body {
 }
 .alt-span {
   color: #f4f4fd;
+}
+.container {
+  padding: 188px 0;
 }
