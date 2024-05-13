@@ -22,6 +22,12 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container-nav {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .navbar {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -30,6 +36,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  align-items: center;
+}
+.menu-listesi-ul {
+  display: flex;
+  gap: 40px;
 }
 .navlist {
   font-weight: 500;
@@ -37,6 +50,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .navlist:hover {
   color: #404bbf;
@@ -69,6 +83,10 @@ body {
 .iletisim:focus {
   color: #404bbf;
 }
+.adres-liste-ul {
+  display: flex;
+  gap: 40px;
+}
 .adreslisteelemani {
   color: #434455;
 }
@@ -97,6 +115,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 
 .log-span {
@@ -197,6 +216,15 @@ body {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+.sector-iki-list-div {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+}
+.sector-uc-ul {
+  display: flex;
+  gap: 24px;
+}
 .sector-ucliste {
   font-weight: 500;
   font-size: 20px;
@@ -289,9 +317,11 @@ body {
 .container {
   padding: 188px 0;
   flex-direction: row;
+  display: flex;
 }
 .container-sector-iki {
   padding: 120px 0;
-}
-.container-sector-uc {
+  flex-direction: row;
+  display: flex;
+  gap: 24px;
 }
