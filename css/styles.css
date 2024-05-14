@@ -79,13 +79,7 @@ body {
 .navbaglanti:focus {
   color: #404bbf;
 }
-.menu {
-  display: flex;
-  gap: 40px;
-}
-.menu-icerik {
-  padding: 24px 0;
-}
+
 .iletisim {
   font-size: 16px;
   line-height: 1.5;
