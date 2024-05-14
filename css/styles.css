@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+.baslik {
+  border-bottom: 1px solid #e7e9fc;
+}
 img {
   display: block;
 }
@@ -46,6 +49,7 @@ body {
 .menu-listesi-ul {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .navlist {
   font-weight: 500;
@@ -173,6 +177,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 120px 0;
 }
 .sector-ikilist {
   display: flex;
@@ -185,8 +190,9 @@ body {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
-.sector-ikilist-son {
+.sector-ikilist {
   margin-right: 0;
+  width: calc((100% - 72px) / 4);
 }
 .sektor-ikiparagraf {
   line-height: 1.5;
