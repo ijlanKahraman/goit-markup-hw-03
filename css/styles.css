@@ -131,6 +131,7 @@ body {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .log-span {
