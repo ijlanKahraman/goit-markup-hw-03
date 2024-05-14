@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -16,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
   </head>
   <body>
     <header class="baslik">
@@ -27,15 +27,23 @@
           >
           <div class="container">
             <ul class="menu-listesi-ul">
-              <li class="navlist">
-                <a class="navbaglanti" href="./index.html">Studio</a>
-              </li>
-              <li class="navlist">
-                <a class="navbaglanti" href="">Portfolio</a>
-              </li>
-              <li class="navlist">
-                <a class="navbaglanti" href="">Contacts</a>
-              </li>
+              <menu class="menu">
+                <li class="navlist">
+                  <menu class="menu-icerik">
+                    <a class="navbaglanti" href="./index.html">Studio</a>
+                  </menu>
+                </li>
+                <li class="navlist">
+                  <menu class="menu-icerik">
+                    <a class="navbaglanti" href="">Portfolio</a>
+                  </menu>
+                </li>
+                <li class="navlist">
+                  <menu class="menu-icerik">
+                    <a class="navbaglanti" href="">Contacts</a>
+                  </menu>
+                </li>
+              </menu>
             </ul>
           </div>
         </nav>
