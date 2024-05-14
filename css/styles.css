@@ -70,6 +70,7 @@ body {
 }
 .navbaglanti {
   color: #2e2f42;
+  padding: 24px 0;
 }
 .navbaglanti:hover {
   color: #404bbf;
