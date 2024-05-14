@@ -338,3 +338,7 @@ body {
   display: flex;
   gap: 24px;
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
