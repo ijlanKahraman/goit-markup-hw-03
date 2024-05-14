@@ -342,3 +342,8 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+.container-footer {
+  padding: 100px 0;
+  flex-direction: column;
+  display: inline-block;
+}
