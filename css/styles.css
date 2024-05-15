@@ -30,9 +30,6 @@ body {
 }
 .container-nav {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .navbar {
   font-family: "Raleway", sans-serif;
@@ -91,6 +88,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  margin-left: auto;
 }
 .iletisim:hover {
   color: #404bbf;
@@ -113,6 +111,9 @@ body {
 }
 .adresbaglanti {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .adresbaglanti:hover {
   color: #404bbf;
@@ -141,12 +142,13 @@ body {
 
 .sector-bir {
   background-color: #2e2f42;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
   padding: 188px 0;
+}
+.sector-bir .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .sector-birbaslik {
   font-size: 56px;
@@ -159,20 +161,17 @@ body {
 }
 
 .sector-birbutton {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
   display: block;
   min-width: 169px;
-  height: 56px;
   border: none;
-  background-color: #4d5ae5;
   border-radius: 4px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .sector-birbutton:hover {
@@ -327,7 +326,7 @@ body {
   color: #4d5ae5;
   padding: 100px 0 100px;
 }
-.alt-paragraf {
+.footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
@@ -337,16 +336,19 @@ body {
   color: #f4f4fd;
 }
 .container {
-  padding: 188px 0;
-  flex-direction: row;
-  display: flex;
-  flex-direction: column;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .container-sector-iki {
   padding: 120px 0;
   flex-direction: row;
   display: flex;
   gap: 24px;
+}
+.footer .footer-p {
+  max-width: 264px;
+  background-color: #2e2f42;
 }
 .footer-logo {
   display: inline-block;
@@ -356,4 +358,14 @@ body {
   padding: 100px 0;
   flex-direction: column;
   display: inline-block;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-div {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-direction: column;
 }
