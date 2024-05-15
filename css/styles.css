@@ -134,6 +134,14 @@ body {
   margin-right: 76px;
   padding: 24px 0;
 }
+.navlist .navbaglanti {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
 
 .log-span {
   color: #2e2f42;
@@ -351,21 +359,18 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
 }
-.container-footer {
-  padding: 100px 0;
-  flex-direction: column;
-  display: inline-block;
-}
+
 .footer {
   background-color: #2e2f42;
-}
-.footer-div {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  flex-direction: column;
+  padding: 100px 0;
 }
